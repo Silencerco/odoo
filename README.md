@@ -37,3 +37,11 @@ To fetch odoo merge pull requests refs use this command:
 
     $ ./odoo.py setup_git_review
 
+
+Changes by SilencerCo
+---------------------
+
+- patch `setup.py` to install `openerp-gevent`:
+  - [original patch](https://github.com/odoo/odoo/commit/c12c097655a4f770281dfdf5bb35657080abcd7b)
+  - [issue #9673](https://github.com/odoo/odoo/issues/9673)
+  - [issue #10207](https://github.com/odoo/odoo/pull/10207#issuecomment-216745382)
